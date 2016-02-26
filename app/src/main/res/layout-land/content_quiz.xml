@@ -33,25 +33,43 @@
             android:text="@string/false_button" />
     </LinearLayout>
 
-
-    <Button
-        android:id="@id/next_button"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|right"
-        android:text="@string/next_button"
-        android:drawablePadding="4dp" >
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="80dp">
 
-    </Button>
 
-    <Button
-        android:id="@id/previous_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|left"
-        android:text="@string/previous_button"
-        android:drawablePadding="4dp" >
+        <Button
+            android:id="@id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:text="@string/next_button"
+            android:drawablePadding="4dp" >
+
         </Button>
+
+        <Button
+            android:id="@id/previous_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:text="@string/previous_button"
+            android:drawablePadding="4dp" >
+        </Button>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cheat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cheat_button"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="30dp"/>
+
+
 
 
 
